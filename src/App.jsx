@@ -1,14 +1,20 @@
-import Hero from "./sections/Hero";
-import Navbar from "./sections/Navbar";
+import { Hero, Navbar, Overview } from "./sections";
 
 const App = () => (
-  <main className="tlo">
-    <section>
-      <Navbar />
-    </section>
-    <section>
-      <Hero />
-    </section>
+  <main>
+    <div className="tlo">
+      <section>
+        <Navbar />
+      </section>
+      <section>
+        <Hero />
+      </section>
+    </div>
+    <div className="tlo2">
+      <section>
+        <Overview />
+      </section>
+    </div>
   </main>
 );
 

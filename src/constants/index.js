@@ -1,11 +1,16 @@
-// import {} from "../assets/icons";
-// import {} from "../assets/images";
+import { over1, over2, over3 } from "../assets/icons";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
+];
+
+export const overviews = [
+  { imgURL: over1, label: "Label 1" },
+  { imgURL: over2, label: "Label 2" },
+  { imgURL: over3, label: "Label 3" },
 ];
 
 // export const shoes = [
