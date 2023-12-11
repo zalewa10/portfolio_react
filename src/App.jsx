@@ -1,4 +1,4 @@
-import { Hero, Navbar, Overview } from "./sections";
+import { Hero, Navbar, Overview, Portfolio } from "./sections";
 
 const App = () => (
   <main>
@@ -13,6 +13,9 @@ const App = () => (
     <div className="tlo2">
       <section>
         <Overview />
+      </section>
+      <section>
+        <Portfolio />
       </section>
     </div>
   </main>

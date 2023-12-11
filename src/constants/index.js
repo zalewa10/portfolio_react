@@ -1,5 +1,5 @@
 import { over1, over2, over3 } from "../assets/icons";
-
+import { seera, autos } from "../assets/img";
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
@@ -11,6 +11,15 @@ export const overviews = [
   { imgURL: over1, label: "Label 1" },
   { imgURL: over2, label: "Label 2" },
   { imgURL: over3, label: "Label 3" },
+];
+
+export const projects = [
+  {
+    imgURL: autos,
+    label: "Ośrodek Szkolenia AUTO-S",
+    link: "https://auto-s.pl/",
+  },
+  { imgURL: seera, label: "SEERA-CORP", link: "https://seera-corp.eu/" },
 ];
 
 // export const shoes = [
